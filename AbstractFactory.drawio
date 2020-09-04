@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T13:42:12.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="9s8Pkk0aBur1-99JMm0Y" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-04T13:44:14.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="p-NCZTlTi7UPaBNto6FQ" version="13.6.6" type="github">
   <diagram id="jh_s9WA5ICmDmVarIB02" name="第 1 页">
     <mxGraphModel dx="3076" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
           <mxGeometry x="246.60000000000002" y="751.1111111111111" width="208.32000000000008" height="46.666666666666664" as="geometry" />
         </mxCell>
         <mxCell id="W7easzAoIa7uQQwCpiiC-43" value="实现抽象产品接口B" style="shape=card;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="430" y="600" width="128" height="67.78" as="geometry" />
+          <mxGeometry x="440" y="620" width="118" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rAtVhOmYT72p40duG1yd-24" value="实际产品类 B1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="605" width="100" height="20" as="geometry" />
