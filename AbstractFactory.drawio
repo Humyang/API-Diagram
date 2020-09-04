@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T10:27:25.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="FzprqGyDaK7D8qCoXZa4" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-04T10:29:23.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="2Lkkeg_3bOXbKt7aIFEl" version="13.6.6" type="github">
   <diagram id="jh_s9WA5ICmDmVarIB02" name="第 1 页">
     <mxGraphModel dx="2489" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="rAtVhOmYT72p40duG1yd-2" value="抽象从工厂接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
           <mxGeometry x="10" y="10" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rAtVhOmYT72p40duG1yd-28" value="生产产品A方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
+        <mxCell id="rAtVhOmYT72p40duG1yd-28" value="定义生产产品A方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
           <mxGeometry x="20" y="50" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rAtVhOmYT72p40duG1yd-29" value="生产产品B方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
+        <mxCell id="rAtVhOmYT72p40duG1yd-29" value="定义生产产品B方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
           <mxGeometry x="20" y="120" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rAtVhOmYT72p40duG1yd-30" value="抽象产品A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-3">
@@ -34,6 +34,18 @@
         <mxCell id="rAtVhOmYT72p40duG1yd-6" value="实际工厂类 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rAtVhOmYT72p40duG1yd-4">
           <mxGeometry x="10" y="10" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-32" value="实现生产产品A方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-4">
+          <mxGeometry x="15" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-33" value="实现生产产品B方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-4">
+          <mxGeometry x="15" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-34" value="抽象产品A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-4">
+          <mxGeometry x="145" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-35" value="抽象产品B" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-4">
+          <mxGeometry x="145" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="rAtVhOmYT72p40duG1yd-7" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="170" y="320" width="250" height="180" as="geometry" />
         </mxCell>
@@ -42,6 +54,18 @@
         </mxCell>
         <mxCell id="rAtVhOmYT72p40duG1yd-9" value="实际工厂类 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rAtVhOmYT72p40duG1yd-7">
           <mxGeometry x="10" y="10" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-36" value="实现生产产品A方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-7">
+          <mxGeometry x="24" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-37" value="实现生产产品B方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-7">
+          <mxGeometry x="24" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-38" value="抽象产品A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-7">
+          <mxGeometry x="154" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAtVhOmYT72p40duG1yd-39" value="抽象产品B" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rAtVhOmYT72p40duG1yd-7">
+          <mxGeometry x="154" y="110" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rAtVhOmYT72p40duG1yd-10" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-250" y="835" width="250" height="180" as="geometry" />
