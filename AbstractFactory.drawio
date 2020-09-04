@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T13:30:10.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="7hHt1owTP1YlTtYWuNkX" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-04T13:30:52.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="TGNjNinmPQNjyS-NeApi" version="13.6.6" type="github">
   <diagram id="jh_s9WA5ICmDmVarIB02" name="第 1 页">
     <mxGraphModel dx="3550" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="W7easzAoIa7uQQwCpiiC-18" value="定义特有方法 C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="W7easzAoIa7uQQwCpiiC-6">
           <mxGeometry x="34" y="125.45454545454544" width="120" height="41.81818181818182" as="geometry" />
         </mxCell>
-        <mxCell id="W7easzAoIa7uQQwCpiiC-19" value="抽象产品接口A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="W7easzAoIa7uQQwCpiiC-6">
+        <mxCell id="W7easzAoIa7uQQwCpiiC-19" value="抽象产品接口A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="W7easzAoIa7uQQwCpiiC-6">
           <mxGeometry x="245" y="118.48484848484848" width="120" height="55.75757575757576" as="geometry" />
         </mxCell>
         <mxCell id="W7easzAoIa7uQQwCpiiC-8" value="" style="group;" vertex="1" connectable="0" parent="1">
