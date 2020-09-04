@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T06:11:42.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="HqY_7m19O5j-Hsz6-mJ7" version="13.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-04T10:05:40.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="vO30M54yv2D0JgRR5m3w" version="13.6.6" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="2522" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -255,8 +255,8 @@
         <mxCell id="IDV8dnBj_DpfX5lwjrd9-66" value="使用者只需要关心选择哪个&lt;b&gt;实际工厂类&lt;/b&gt;来生成&lt;b&gt;实际工厂实例&lt;/b&gt;，并调用&lt;b&gt;抽象工厂类及实际工厂类&lt;/b&gt;提供的业务方法实现业务逻辑。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="680" y="1335" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IDV8dnBj_DpfX5lwjrd9-67" value="类库作者只需要关心有多少种&lt;b&gt;实际产品类&lt;/b&gt;，创建相应的&lt;b&gt;实际工厂类&lt;/b&gt;提供给用户使用，在&lt;b&gt;产品接口&lt;/b&gt;中提供方法给&lt;b&gt;实际工厂类和抽象工厂类&lt;/b&gt;使用。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="650" y="560" width="399" height="35" as="geometry" />
+        <mxCell id="IDV8dnBj_DpfX5lwjrd9-67" value="类库作者只需要关心有多少种&lt;b&gt;实际产品类&lt;/b&gt;，创建相应的&lt;b&gt;实际工厂类&lt;/b&gt;提供给用户使用，在&lt;b&gt;产品接口&lt;/b&gt;中提供方法给&lt;b&gt;实际工厂类和抽象工厂类&lt;/b&gt;使用。&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="650" y="540" width="399" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IDV8dnBj_DpfX5lwjrd9-68" value="&lt;font color=&quot;#ff3333&quot;&gt;在重写&lt;b&gt;抽象工厂方法&lt;/b&gt;时，可以调用&lt;b&gt;产品接口&lt;/b&gt;提供的方法，也可以为该工厂&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;添加&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;特殊的业务逻辑，最后返回给抽象工厂方法的调用者&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="740" width="310" height="36" as="geometry" />
@@ -314,6 +314,9 @@
         </mxCell>
         <mxCell id="gF1t-td56QhgECBIjjIq-3" value="&lt;h1&gt;分析是否符合条件&lt;/h1&gt;&lt;p&gt;用到了 new 关键字创建对象。&lt;br&gt;&lt;br&gt;创建这个对象需要传递很多参数组合，使用者需要清楚每一个选项的功能。&lt;br&gt;&lt;br&gt;这个对象使用起来很复杂，需要知道很多知识或者操作很多步骤才能实现功能。&lt;/p&gt;&lt;p&gt;&lt;span&gt;这个对象用在了很多地方。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="1600" y="120" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bDHXP9fVF2uEJB9zQiii-1" value="理解工厂模式的关键&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;是&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;工厂对产品的封装&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="20" width="310" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
