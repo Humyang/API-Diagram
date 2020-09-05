@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2020-09-05T04:17:59.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="amYFBp-RENP5fze-QkV2" version="13.6.6" type="github"><diagram id="kZqYOP29PEomeLAzogIY" name="第 1 页">7VlLc9s2EP41mGkPyvBN4EhKVDydND04bXrLMCIssaZIDUVbcn59d5egxAdkMY7lJo19kKEPwO5iv93FQ8yervdvy3iz+r1IZMYsI9kze8Ys+HME/EPkoUZMYZs1sizTRGFH4Dr9IhVoKPQuTeS2M7AqiqxKN11wUeS5XFQdLC7LYtcddlNkXa2beCkHwPUizoboxzSpVjXKLf+IX8l0uWo0m55a8TpuBquVbFdxUuxakB0xe1oWRVW31vupzNB7jV/qefMTvQfDSplXYybc+vv7qy95Oive7aNPM3l1O3MmSsp9nN2pBbPIZdxk3GcRZ0HEwohFDgtnLDCwS0xZwFnksQAQu4XQLBFQw23GGIxTVzhlnKbzORMmi3wcyR3q8lngKhUgKprT4GlLqcC5XKBAHrJAkBwAZ6QduiIUGEDXnLo44x4hHgvDrq6eGR4TMEY0XfOWdtAV0GCPFjhvLQcQjohlvJfbilnTf7bQJmMsnGsZf4EzEbHJcqu1Fh+tDdueFI23yXLsgsEBLQEanGygRhCQVRG5i5ZQ+x8sCUWr67AowQQotVoeAMRHTqEBOKyivV6QI8hL4DdezxLkQJeoIclgcGCS8TMUdZw+JELgAtF4TgJpFqgW0dEJlpEVyzRv/GTCt+KuIs/5GF+cmAkcCqtHfNCyQsXFwQoHPSEuaY6LgYIagCobPdXzKZ93bO97UDSzKM5QRZ11vKULwmKOZNSRIcIWx/BpEzcHpYfBHsoPPbLQUAiYirpgjKnMUOnnog+Q9ZaFKiVc9E1I2RI6TTngKApDxFHJD8aHQSt2m9CvS1/10NTTSu6hWoWrap0BYEJzW5XFrZwWWVECkhc5jAxv0izrQXGWLnP4mskblHAvyyqFOh0ouCo2gO5WaSWvN/EC1e1gTwKsLO7yRGIVNFAddKb58gMOJ2BYR5uiCBrkvgWpuvpWFmtZlQ8wpNnnVIlXm9zE9BWwO24ZtqewVXu7sBUYq21qeZB9rOTQUMX8Kwq7NSzslpeh4z5DY4mNdxTtdXifT/VB2ilxYN1B4kFFeRqpc8zy4jVyk3/ebsZPpHQ8P7KUy5Qqcy/2uoGgC5VWWI4Kt2eInYnpdaPH9YbBY2qDx7pU8Njng+d6VWymcUnhw7EwBFR2oYAFVMNwv/MuGUdxkqhdFypRfTbBc4f7mDkjxMIBVlay2c9dqmXQsGnL8Kjw1bb7VO8e0fUjBJ/9/cWeoz+Rdvd1yzgWr+E+Pr4I/bRFx/K7xNtcQ7z7osS7WuJ7x8pX4r+R+DG8Xyzh/9j8+clL3k8+PPwm5P3H5G85N09dQfsJ395wnsI87Rfj6/+PQKbF/8sk1pKpOXbqkviVzAGZzhgyXzYzNcdAzRV7cIccQYy6Ogp6VuEcA+RQ2UeNPQTQt1D7LKd3p0ub7upnch1t7qVo05+ghg9lPzFt/XPvd8Cap2Ft3ION/j71VB6bB8jAP158vpJcrYge49tVvMHmIi6TF6G8V14nzpBxy9Ex7l2KcX/AOOxWzZ32XJE9bpv0JsdDnIhCjFzuRgvxMa7C8JdfNQdg2Tx99t+GTmp+muFvTkejzq4TwXjGxjfZSXkjZ8Nt4MnT1RUB5/fS4GLPoes0SVDJiBfR59gGLaObXr7mIUH/Anqx0wt/JL3Ob4aGJs576XVWyAXS67zO1/T6/6WXbb1gdsHX44/S1Nf6bd+O/gU=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-05T07:34:03.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="Xs4CCX-iZtkUbX5Pb_Sp" version="13.6.6" type="github">
+  <diagram id="kZqYOP29PEomeLAzogIY" name="第 1 页">
+    <mxGraphModel dx="2249" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k7xvHzniDoLxE_DeHkD4-1" value="假设你在正在做全栈开发的工作，你选择前后端分离的开发方式，技术栈是 Nest,js 和 Vue 。你现在遇到了一个接口对接方面的问题，比如登录模块，后端需要实现 login、logout 等多个接口，前端也需要实现 login、logout 等多个功能，每个模块都有许多这些方法，这时候抽象工厂模式就派上用场了。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingTop=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-170" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="k7xvHzniDoLxE_DeHkD4-2" value="&lt;b&gt;Login 登录模块接口&lt;/b&gt;&lt;br&gt;&lt;br&gt;login&amp;nbsp;&lt;br&gt;&lt;br&gt;logout&lt;br&gt;&lt;br&gt;regiest" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k7xvHzniDoLxE_DeHkD4-3" value="&lt;b&gt;ShopCar 购物车模块接口&lt;/b&gt;&lt;br&gt;&lt;br&gt;add 加入购物车&lt;br&gt;&lt;br&gt;delete 商品清出购物车" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k7xvHzniDoLxE_DeHkD4-4" value="前端 Login 实现&lt;br&gt;&lt;br&gt;login&lt;br&gt;&lt;br&gt;logout&lt;br&gt;&lt;br&gt;regiest" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="380" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k7xvHzniDoLxE_DeHkD4-5" value="后端 Login 实现&lt;br&gt;&lt;br&gt;login&lt;br&gt;&lt;br&gt;logout&lt;br&gt;&lt;br&gt;regiest" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="380" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-1" value="前端 ShopCar 实现&lt;br&gt;&lt;br&gt;add&lt;br&gt;&lt;br&gt;delete" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="280" y="380" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-2" value="后端 ShopCar 实现&lt;br&gt;&lt;br&gt;add&lt;br&gt;&lt;br&gt;delete" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-3" value="前端工厂&lt;br&gt;&lt;br&gt;生成 Login&lt;br&gt;生成 ShopCar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="170" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-4" value="后端工厂&lt;br&gt;&lt;br&gt;生成 Login&lt;br&gt;生成 ShopCar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="170" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-6" value="抽象工厂接口&lt;br&gt;&lt;br&gt;生成 Login 产品&lt;br&gt;生成 ShopCar 产品" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-40" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-7" value="let 前端工厂实例 = new 前端工厂类()&lt;br&gt;let 登录实例 = 前端工厂实例.生成 Login()&lt;br&gt;&lt;br&gt;登录实例.login()&lt;br&gt;登录实例.logout()&lt;br&gt;登录实例.regiest()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="760" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpU_6dN-TyJ9evWdXeF1-8" value="let 后端工厂 实例= new 后端工厂类()&lt;br&gt;let 登录实例 = 后端工厂实例.生成 Login()&lt;br&gt;&lt;br&gt;登录实例.login()&lt;br&gt;登录实例.logout()&lt;br&gt;登录实例.regiest()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="760" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="blrM6WtbDgeSDKfRhyoO-1" value="APP 工厂&lt;br&gt;&lt;br&gt;生成 Login&lt;br&gt;生成 ShopCar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="170" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="blrM6WtbDgeSDKfRhyoO-2" value="测试 工厂&lt;br&gt;&lt;br&gt;生成 Login&lt;br&gt;生成 ShopCar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="170" width="180" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
