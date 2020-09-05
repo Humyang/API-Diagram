@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-05T07:38:20.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="XliDP2sW2FncQpU-2fXP" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-05T09:08:29.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="nV0evFb1nAVMQNoAvi1p" version="13.6.6" type="github">
   <diagram id="jh_s9WA5ICmDmVarIB02" name="第 1 页">
-    <mxGraphModel dx="3076" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2121" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,6 +255,15 @@
         </mxCell>
         <mxCell id="UVfANku5wT52iCnuy6ld-27" value="&lt;pre class=&quot;code cm-s-default CodeMirror&quot; lang=&quot;pseudocode&quot; style=&quot;box-sizing: inherit ; overflow: auto ; font-family: &amp;quot;menlo&amp;quot; , &amp;quot;fira code&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 0.75rem ; margin-top: 0px ; margin-bottom: 1rem ; line-height: 1.25rem ; height: auto ; color: rgb(0 , 0 , 0) ; direction: ltr ; position: relative ; background: rgb(246 , 248 , 248) ; padding: 15px ; text-align: left ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span class=&quot;cm-def1&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; color: rgb(153 , 0 , 0)&quot;&gt;MacCheckbox&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="584" y="928.48" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UVfANku5wT52iCnuy6ld-29" value="&lt;h2 id=&quot;applicability&quot; style=&quot;box-sizing: inherit; margin: 3rem 0px 1.5rem; font-weight: 700; font-size: 2rem; line-height: 2.6rem; color: rgb(68, 68, 68); font-family: &amp;quot;pt sans&amp;quot;, &amp;quot;helvetica neue&amp;quot;, arial, &amp;quot;pingfang sc&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, &amp;quot;hiragino sans gb&amp;quot;, sans-serif; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;hidden-in-book&quot; style=&quot;box-sizing: inherit&quot;&gt;抽象工厂模式&lt;/span&gt;适合应用场景&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="585" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UVfANku5wT52iCnuy6ld-30" value="如果代码需要与多个不同系列的相关产品交互（Win Button，Mac Button，XXX Button），但&lt;b&gt;无法提前获取相关信息（不知道要对接多少种类库）&lt;/b&gt;，或者出于对未来&lt;b&gt;扩展性&lt;/b&gt;的考虑，你不希望代码基于产品的具体类进行构建（直接使用 Win Button），这种情况下，你可以使用抽象工厂。&lt;br&gt;&lt;br&gt;抽象工厂为你提供了一个接口（抽象工厂接口），可用于创建每个系列产品的对象（Win 系列，Mac 系列）。只要代码通过该接口创建对象（创建 Button，Checkbox），那么你就不会生成与应用程序已生成的产品类型不一致的产品（确保全是 Win 的产品和全是 Mac 的产品。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="690" width="390" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="UVfANku5wT52iCnuy6ld-31" value="比如要接入呼叫系统，你不知道要接入多少家，每家的产品的 api 不一样，就可以用抽象工厂统一他们的操作。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="744.62" width="180" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
